@@ -1,0 +1,31 @@
+.brandLogo h1 {
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.brandLogo {
+  height: 76px;
+  background-color: #6e7f8d;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 2px;
+  position: relative;
+}
+.logoutButton {
+  position: absolute;
+  top: 20%;
+  right: 28px;
+}
+
+/* --Media-Query--- */
+
+@media (max-width: 414px) {
+  .brandLogo h1 {
+    font-size: 1.8rem;
+  }
+  .brandLogo {
+    height: 64px;
+  }
+}

@@ -1,0 +1,30 @@
+.addInp {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin: 4px 0;
+}
+.button {
+  width: 20%;
+  background-color: #e4ebf1;
+  color: black;
+}
+
+.button:hover {
+  color: white;
+}
+
+/* -----Media-query----- */
+
+@media (max-width: 414px) {
+  .button {
+    width: 30%;
+    height: 30px;
+  }
+  .addInp input {
+    height: 30px;
+  }
+  .addInp {
+    gap: 10px;
+  }
+}

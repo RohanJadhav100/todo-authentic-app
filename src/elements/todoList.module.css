@@ -1,0 +1,48 @@
+.list li {
+  background-color: #eff2f9;
+  border-radius: 4px;
+  margin-top: 1px;
+  padding: 10px 20px;
+}
+.todo_text {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item label {
+  font-weight: 600;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.icons div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.lineText {
+  text-decoration: line-through;
+}
+
+.editInput {
+  outline: none;
+  /* background-color: transparent; */
+  font-weight: 600;
+}
+
+/* --Media-query--- */
+
+@media (max-width: 414px) {
+  .item label {
+    font-size: 14px;
+  }
+}
