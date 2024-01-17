@@ -17,6 +17,10 @@ https://todoforge.netlify.app/
 
 ## Screenshots
 
+![image](https://github.com/RohanJadhav100/todo-authentic-app/assets/135609778/41409610-6157-4c55-ae8c-c53ba77159bb)
+
+![image](https://github.com/RohanJadhav100/todo-authentic-app/assets/135609778/88613c01-23ed-44ef-9d66-31087cca5b89)
+
 ## Features
 
 - **Intuitive Interface**: A user-friendly interface for managing your tasks.
